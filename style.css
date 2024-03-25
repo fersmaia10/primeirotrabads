@@ -1,0 +1,46 @@
+/*Estilo do corpo da página*/
+
+body{
+    background-color: black;
+    color: aqua;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    
+}
+
+/*Posicionamento das li's, no caso, os botões*/
+
+li {
+    float: left;
+}
+
+ul li {
+    position: relative;
+}
+
+/*Estilo de cores tamanho e disposição dos botões*/
+
+li a {
+    display: block;
+    color: rgb(112, 221, 57);
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: rgb(139, 43, 183);
+    border: 1px solid rgb(112, 221, 57);
+}
+
+li a:hover {
+    background-color: #620783;
+}
+
+p {
+    color: red;
+}
+
